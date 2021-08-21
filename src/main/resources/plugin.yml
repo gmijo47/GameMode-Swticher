@@ -1,0 +1,23 @@
+name: GameModeSwitcher
+main: io.gmijo.gmsw.GameModeSwitcher
+version: 1.0.4
+author: gmijo
+description: A simple gamemode switcher for vanilla
+commands:
+   gmc:
+     description: Set gamemode to creative.
+     permission: gmsw.gmc
+     permission-message: You do not have /<permission>
+   gms:
+     description: Set gamemode to survival.
+     permission: gmsw.gms
+     permission-message: You do not have /<permission>
+   gmsp:
+     description: Set gamemode to specactor.
+     permission: gmsw.gmsp
+     permission-message: You do not have /<permission>
+   gma:
+     description: Set gamemode to adventure.
+     permission: gmsw.gma
+     permission-message: You do not have /<permission>
+      
